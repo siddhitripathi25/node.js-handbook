@@ -1,0 +1,6 @@
+WHAT IS NODE.JS??
+- Node.js is an open source, cross platform runtime environment for executing JS code outside of a browser.
+- It is running JS on a server or any other computer.
+- It is built on chrome's V8 engine.
+- V8 is written in C++ for speed.
+- V8 + Backend features = Node.js
