@@ -4,3 +4,26 @@ WHAT IS NODE.JS??
 - It is built on chrome's V8 engine.
 - V8 is written in C++ for speed.
 - V8 + Backend features = Node.js
+
+DESIGN
+- Features an event-driven, non blocking, I/O model for efficiency.
+
+FULL-STACK JS
+- Allows using JS on both server and client sides.
+
+
+
+CLIENT CODE VS SERVER CODE:
+- User/client can't access server code directly.
+- Client must raise request for particular APIs to access certain features or data.
+- Server-side JS accesses server features like file system and databases.
+- Server-side code can handle sensitive operations securely, while client side code is exposed and must manage security risk.
+- Heavy computations are better performed on the server to avoide slowing down the client.
+- Server-side JS is optimized for non-blocking I/O to efficiently manage multiple request.
+- Server-side code is designed to scale and handle request from multiple clients simultaneously.
+
+
+SERVER ARCHTECTURE WITH NODE.JS
+- Create server nd listen to incoming request.
+- Business Logic: validation, connect to data base, actual processing of data. 
+- Return response HTML, CSS, JSON, JS.
