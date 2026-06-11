@@ -11,8 +11,6 @@ DESIGN
 FULL-STACK JS
 - Allows using JS on both server and client sides.
 
-
-
 CLIENT CODE VS SERVER CODE:
 - User/client can't access server code directly.
 - Client must raise request for particular APIs to access certain features or data.
@@ -27,3 +25,4 @@ SERVER ARCHTECTURE WITH NODE.JS
 - Create server nd listen to incoming request.
 - Business Logic: validation, connect to data base, actual processing of data. 
 - Return response HTML, CSS, JSON, JS.
+
