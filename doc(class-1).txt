@@ -8,7 +8,7 @@ WHAT IS NODE.JS??
 DESIGN
 - Features an event-driven, non blocking, I/O model for efficiency.
 
-FULL-STACK JS
+FULL STACK JS
 - Allows using JS on both server and client sides.
 
 CLIENT CODE VS SERVER CODE:
