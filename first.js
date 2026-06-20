@@ -2,6 +2,6 @@
 const fs = require('fs');
 fs.writeFile('output.txt', 'WritingFile', (err)=>{
     if (err) throw err;
-    else console.log('File has been written');
+    else console.log('error doesn\'t exist, file created successfully');
 
 })
