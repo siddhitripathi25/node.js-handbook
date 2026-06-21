@@ -1,0 +1,5 @@
+HOW DNS (Domain Name System) WORKS?
+- Domain name entry: User types a domain(www.google.com) into the browser.
+- DNS query: The browser sends a DNS query to resolve the domain into an IP address.
+- DNS server: Provides the correct IP address to the domain.
+- Browser connects: The browser uses IP to connect to the web server and loads the website.

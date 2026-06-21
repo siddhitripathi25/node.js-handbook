@@ -12,6 +12,7 @@ WHAT IS REPL
 - Session Management
 - Node.js API access
 - Customizable
+- NODEJS follows REPL and first line is connected to next line.
 
 
 
