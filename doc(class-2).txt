@@ -7,3 +7,12 @@ WHAT IS IDE (Integrated Developement Environment)
 WHAT IS REPL
 - Read, Evaluate, Print, Loop
 - Streamlines Interactive Shell
+- Quick testing
+- Built-in help
+- Session Management
+- Node.js API access
+- Customizable
+
+
+
+WE CAN OPEN CONSOLE OF NODEJS IN TERMINAL ITSELF....BY TYPING node AND THEN '>' THIS SIGN APPEARS....WE CAN WRITE ANYTHING.
