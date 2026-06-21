@@ -3,3 +3,15 @@ HOW DNS (Domain Name System) WORKS?
 - DNS query: The browser sends a DNS query to resolve the domain into an IP address.
 - DNS server: Provides the correct IP address to the domain.
 - Browser connects: The browser uses IP to connect to the web server and loads the website.
+
+
+NODE CORE MODULES
+1. fs(file system) - Handle file operation like reading and writing file.
+2. http - Create HTTP server and make HTTP request.
+3. https - Launch a SSL server. 
+4. path - Provide utilities for handling and transforming files.
+5. path.os - Provide Operating System related utility methods and properties.
+6. events - Handle event-driven programming. 
+7. crypto - Provides cryptographic functionalities like hashing and encryption.
+8. url - Parses and formats URL string. 
+
