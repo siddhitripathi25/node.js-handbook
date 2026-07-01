@@ -25,3 +25,11 @@ Chef	OS/libuv
 Manager	Event Loop
 Ready Food	Callback Queue
 
+Components of the Event Loop
+1. Call Stack
+
+The Call Stack is where JavaScript executes code.
+
+Executes one task at a time.
+Follows the LIFO (Last In, First Out) principle.
+When a function finishes, it is removed from the stack.
