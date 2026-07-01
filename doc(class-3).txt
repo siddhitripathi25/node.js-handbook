@@ -22,3 +22,4 @@ NODE CORE MODULES
 - .js is added automatically and is not needed to add at the end of module name.
 - Node.js searches for modules in core, node_modules, file paths.
 - SYNTAX:   const moduleName(can be any variable) = require('module')
+-
