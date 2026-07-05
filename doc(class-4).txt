@@ -36,9 +36,18 @@ The Call Stack is where JavaScript executes code.
 - When a function finishes, it is removed from the stack.
 Example: console.log("Hello");
 Execution: Call Stack
-
 ------------
 console.log()
 ------------
-
 After execution: Call Stack (empty)
+
+2. OS / libuv
+Some operations take time.
+Examples:
+- setTimeout()
+- setInterval()
+- fs.readFile()
+- Database queries
+- API requests
+- Network operations
+Instead of waiting, Node.js sends these tasks to libuv, which uses the operating system to handle them in the background.
