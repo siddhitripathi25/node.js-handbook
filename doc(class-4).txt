@@ -51,3 +51,19 @@ Examples:
 - API requests
 - Network operations
 Instead of waiting, Node.js sends these tasks to libuv, which uses the operating system to handle them in the background.
+
+
+3. Callback Queue
+When a background task completes, its callback function is placed in the Callback Queue.
+- Example: setTimeout(() => {
+    console.log("Done");
+}, 3000);
+- After 3 seconds:
+ Callback Queue
+
+----------------
+console.log("Done")
+----------------
+
+The callback waits here until the Call Stack becomes empty.
+
